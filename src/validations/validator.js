@@ -13,4 +13,4 @@ let emailRegex = /^[a-z]{1}[a-z0-9._]{1,100}[@]{1}[a-z]{2,15}[.]{1}[a-z]{2,10}$/
 let mobileRegex = /^(\+91[\-\s]?)?[0]?(91)?[6789]\d{9}$/
 
 
-module.exports = { isValid, nameRegex, linkRegex, emailRegex, mobileRegex }  // --> exporting the variables defined in the module
+  // --> exporting the variables defined in the module
